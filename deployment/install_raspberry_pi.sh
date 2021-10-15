@@ -11,9 +11,9 @@ sudo apt-get install -y ffmpeg \
 
 cd ../
 
-python -m pip install virtualenv
+python3 -m pip install virtualenv
 
 python -m virtualenv -p python3 env
 . env/bin/activate
-pip install --upgrade pip setuptools wheel
-pip install -r src/requirements.txt
+python3 -m pip install --upgrade pip setuptools wheel
+python3 -m pip install -r src/requirements.txt
