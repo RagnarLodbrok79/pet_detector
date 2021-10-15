@@ -13,7 +13,7 @@ cd ../
 
 python3 -m pip install virtualenv
 
-python -m virtualenv -p python3 env
+python3 -m virtualenv -p python3 env
 . env/bin/activate
 python3 -m pip install --upgrade pip setuptools wheel
 python3 -m pip install -r src/requirements.txt
